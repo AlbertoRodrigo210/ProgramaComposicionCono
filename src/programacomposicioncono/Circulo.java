@@ -1,5 +1,7 @@
 package programacomposicioncono;
 
+import javax.swing.JOptionPane;
+
 public class Circulo {
 	/**declaro las variables del objeto de la clase Circulo
 	 * @param x aqui guardamos las coordenadas en el eje x
@@ -57,9 +59,9 @@ public class Circulo {
 
 	/**usamos este método para mostrar las coordenadas x e y, la radio y el area del circulo*/
 	public void imprimir() {
-		System.out.print(" x=" + x);
-		System.out.print(" y=" + y);
-		System.out.print(" r=" + radio);
-		System.out.print(" A=" + area());
+		JOptionPane.showMessageDialog(null, " x=" + x);
+		JOptionPane.showMessageDialog(null, " y=" + y);
+		JOptionPane.showMessageDialog(null, " r=" + radio);
+		JOptionPane.showMessageDialog(null, " A=" + area());
 	}
 }

@@ -1,11 +1,13 @@
 package programacomposicioncono;
 
+import javax.swing.JOptionPane;
+
 public class ProgramaComposicionCono {
 	/**esto lo usamos para no usar system.out.print todo el rato
 	 * @return el system lo realizamos a traves de este método
 	 */
 	private static void imprimir(Object datos) {
-		System.out.println(datos);
+		JOptionPane.showMessageDialog(null, datos);
 	}
 
 	/**Este es el cuerpo del programa
